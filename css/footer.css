@@ -1,0 +1,66 @@
+/** @format */
+
+.socials {
+  background-color: blanchedalmond;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2px 0 3px 0;
+}
+
+.socials a {
+  text-decoration: none;
+  color: blanchedalmond;
+  padding: 10px;
+  background-color: black;
+  margin: 10px;
+  border-radius: 100%;
+}
+
+.socials a i {
+  font-size: 2em;
+  color: bisque;
+  opacity: 0.9;
+}
+
+.footercontainer {
+  position: relative;
+  background-color: bisque;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-left: 500px;
+  padding-right: 600px;
+}
+
+.footer a {
+  color: blanchedalmond;
+  text-decoration: none;
+  margin-right: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Hover Effects on Social Media Icons */
+.socials a:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+.socials a:hover i {
+  color: bisque;
+  transition: 0.5s;
+}
+
+.small-text {
+  padding: 50px;
+  font-size: 20px;
+  margin-top: -40px;
+  background-color: bisque;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
